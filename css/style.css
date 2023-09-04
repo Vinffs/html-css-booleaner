@@ -22,7 +22,8 @@ header{
 
 /* 5px margin left execpt header */
 div {
-    margin-left: 5px
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -47,3 +48,34 @@ figure{
 }
 
 
+/* main */
+p>span {
+    background-color: yellow;
+}
+
+ul {
+    margin-left: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+table{
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+thead{
+    background-color: #20a9e5;
+    color: #FFFFFF;
+    text-align: left;
+
+}
+
+.lightblue-rows{
+    background-color:#b1e5f2 ;
+    column-rule-color:#b1e5f2;
+}
+
+.centered-column {
+    background-color:#FFFFFF;
+}
