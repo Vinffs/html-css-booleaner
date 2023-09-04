@@ -30,7 +30,7 @@ div {
 
 /* article */
 h1 {
-    font-size: 4em;
+    font-size: 3.5em;
 
 }
 
@@ -47,8 +47,15 @@ figure{
     padding-bottom: 20px;
 }
 
+figcaption{
+    font-size: 0.8em;
+}
+
 
 /* main */
+main{
+    margin-bottom: 40px;
+}
 p>span {
     background-color: yellow;
 }
@@ -62,6 +69,7 @@ ul {
 table{
     margin-bottom: 40px;
     width: 100%;
+    border-spacing: 0px;
 }
 
 thead{
@@ -79,3 +87,4 @@ thead{
 .centered-column {
     background-color:#FFFFFF;
 }
+
