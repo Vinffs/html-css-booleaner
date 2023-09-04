@@ -88,3 +88,24 @@ thead{
     background-color:#FFFFFF;
 }
 
+
+/* aside */
+
+aside>h4{
+    margin-bottom: 10px;
+    color: #4c4c4c;
+}
+
+.monitor, .graph{
+    margin: 0px;
+    display: block;
+    position: relative;
+
+}
+
+aside>div>h3{
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
